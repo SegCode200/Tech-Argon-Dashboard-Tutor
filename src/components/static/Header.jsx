@@ -7,7 +7,7 @@ import pics from "../../assets/FineGirl.jpg"
 
 const Header = () => {
   return (
-    <div className='flex-row flex justify-center items-center w-full p-6 border-b h-[100px]'>
+    <div className='flex-row flex justify-center items-center w-full  border-b h-[80px] fixed bg-white '>
      <div className='w-[90%] flex-row flex justify-between items-center'>
 
       <div className='flex-row flex items-center'>

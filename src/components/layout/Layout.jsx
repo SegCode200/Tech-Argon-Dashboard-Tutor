@@ -5,11 +5,13 @@ import DashHead from '../static/DashHead'
 
 const Layout = () => {
   return (
-    <div className='flex-col flex'>
+    <div className='absolute'>
       <Header/>
-      <div className='px-6 flex-row flex justify-between w-full'>
+      <div className='px-6 flex-row mt-24 flex w-full '>
         <DashHead/>
-        <Outlet/>
+        <div className='ml-80'>
+       <Outlet/>
+        </div>
       </div>
     </div>
   )
